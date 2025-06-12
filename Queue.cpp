@@ -139,9 +139,11 @@ int main()
                 q.display();
                 break:
             }
-            case '4' {
+            case '4':
+            {
                 return 0;
-            } default:
+            }
+            default:
             {
                 cout << "Invalid option!" << endl;
                 break;
